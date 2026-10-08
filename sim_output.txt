@@ -1,0 +1,16 @@
+VCD info: dumpfile mac_sim.vcd opened for output.
+PASS: Min frame (46-byte payload)
+PASS: 100-byte payload
+PASS: Max frame (1500-byte payload)
+PASS: All-zero payload
+PASS: All-0xFF payload
+PASS: Back-to-back frame 1
+PASS: Back-to-back frame 2
+PASS: CRC error injection
+PASS: Runt frame (<64 bytes)
+PASS: Giant frame (>1518 bytes)
+PASS: Reset during TX
+PASS: Frame after reset
+
+=== Results: 12 PASS / 0 FAIL ===
+tb/tb_mac_top.v:170: $finish called at 316310000 (1ps)
